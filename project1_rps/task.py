@@ -53,7 +53,7 @@ elif user_choice == 1:
     else:
         print(f"computer chose: \n{paper}")
         print("draw")
-else:
+elif user_choice == 2:
     print(f"You chose: \n{scissors}")
     if computer_choice == 1:
         print(f"computer chose: \n{rock}")
@@ -64,3 +64,5 @@ else:
     else:
         print(f"computer chose: \n{scissors}")
         print("draw")
+else:
+   print("you chose a invalid number. You lose!")
